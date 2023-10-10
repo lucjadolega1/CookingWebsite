@@ -1,0 +1,456 @@
+/* Lucja Dolega, 6/22/2022 */
+
+/*Styles for outerwrapper div */
+#outerwrapper {
+	width: 80%;
+	margin: 0 auto 0 auto;
+}
+
+/*Style for body background color */
+body {
+	background-color: #D3D3D3;
+}
+
+/*Styles for nav li a */
+nav li a {
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/*Styles for home image */
+.homeimage {
+	float:left;
+	padding-right: 1.3em;
+	padding-bottom:0.5em;
+}
+
+/* Styles for nav */
+nav {
+	text-align: center;
+}
+
+/*Styles for cooking with lucja header h1 */
+header h1 {
+	font-family: Book Antiqua;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 1em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*Styles for footer element */
+footer {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+/* Styles for contact paragraph */
+.contact-paragraph {
+	text-align: center;
+	padding-left: 2em;
+	padding-right:2em;
+	font-size: 1.5em;
+}
+
+/* Styles for contact infor paragraph */
+.contact-info {
+	text-align: center;
+	font-size: 2em;
+}
+
+/*Styles for links */
+a:link {
+	color: #0074D9;
+}
+
+a:visited {
+	color: #00008B;
+}
+
+a:hover {
+	color: #008B8B;
+}
+
+/* Styles for picture in About Me page */
+.mypicture {
+	float:left;
+	padding-right: 1.3em;
+	padding-bottom:0.5em;
+}
+
+/* Styles for paragraph on about me page */
+.aboutme {
+	font-size: 1.3em;
+	padding-right:0.5em;
+	padding-left:0.5em;
+}
+/* Styles for second paragraph on about me page */
+.endofparagraph {
+	font-size: 1.3em;
+	padding-right:0.5em;
+	padding-left:0.5em;
+}
+
+/* Styles for first set of images on Recipes page */
+#recipes {
+	width:43.5%;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+/* Styles for Recipes page first paragraph */
+.recipe-paragraph {
+	text-align: center;
+	font-size: 3em;
+}
+
+/* Styles for Recipes page first description paragraph */
+.recipe-descriptions {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+/* Styles for Recipes page second description paragraph */
+.recipe-descriptions2 {
+	text-align: center;
+	font-size:1.5em;
+}
+
+/* Styles for table, rows and columns */
+table, th, td {
+	border: 1px solid;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+/* Styles for table */
+table {
+	margin-top: 2em;
+}
+
+/* Styles for form */
+form {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Media query for mobile viewport with screen size of min. 320 px */
+@media only screen and (min-width: 320px){
+	
+	/* Styles for nav ul li */
+	nav ul li{
+		display: inline;
+		float: left;
+		width: 20%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 0.6em;
+	}
+	
+	/* Styles for nav ul */
+	nav ul {
+		padding:0;
+	}
+	
+	/* Styles for navigation bar */
+	nav {
+		text-align: center;
+	}
+	
+	/* Styles for image to make it fluid */
+	img {
+		max-width: 100%;
+	}
+	
+	/* Styles for images on home page */
+	.homeimage, .homeimage1 {
+		width:100%;
+		margin-right: auto;
+		margin-left: auto;
+		padding-bottom: 1em;
+	}
+	
+	/* Styles for introduction paragraph1 on home page */
+	.cookingintro {
+		width:70%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 1.2em;
+	}
+	
+	/* Styles for introduction paragraph2 on home page */
+	.continuedintro {
+		width:70%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 1.2em;
+	}
+	
+	/* Styles for hr */
+	hr {
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	}	
+
+	/* Styles for social media div */
+	#social-media {
+		display: inline;
+		font-size: 1.3em;
+	}
+	
+	/* Styles for footer's paragraph */
+	footer p{
+		font-size: 0.8em;
+	}
+	
+	/* Styles for first set of images in Recipes page */
+	#recipes {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	/* Styles for second set of images in Recipes page */
+	#more-recipes {
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	/* Styles for two paragraphs in Recipes page */
+	 .recipe-descriptions, .recipe-descriptions2 {
+		font-size: 1.3em;
+	}
+	
+	/* Styles for first paragraph in Recipes opage */
+	.recipe-paragraph {
+		font-size: 1.4em;
+		font-weight: bold;
+	}
+	
+	/* Styles for input, label, and text area for the form */
+	input, label, textarea {
+	display: block;
+	}
+
+	/*Styles for main paragraph- Send recipe tab */
+	main p {
+	font-size: 1.5em;
+	text-align: center;
+	}
+
+	/* Styles for picture in Contact Me page */
+	.mypicture {
+	padding-bottom: 1em;
+	}
+
+	/*Styles for caption of the table */
+	caption {
+	font-size: 1em;
+	}
+
+} /*End of styles for mobile viewport */
+
+/*Media query for tablet viewport starting at 660px */
+@media only screen and (min-width: 660px) {
+	
+	/*Styles for hr */
+	hr {
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	}	
+	
+	/*Styles for images on home page */
+	.homeimage, .homeimage1 {
+		width: 55%;
+		margin-left: auto;
+		margin-right: auto;
+		float: left;
+		padding: 1em;
+	}
+	
+	/* Styles for introduction paragraph1 in home page */
+	.cookingintro {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 1.2em;
+	}
+	
+	/* Styles for introduction paragraph2 in home page */
+	.continuedintro {
+		width:80%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 1.2em;
+	}
+	
+	/* Styles for nav ul li */
+	nav ul li {
+		font-size: 0.9em;
+	}
+	
+	/* Styles for first paragraph in Recipes tab */
+	.recipe-paragraph {
+		font-size: 2.5em;
+	}
+	
+	/* Styles for paragraphs wunder pictures in Recipes tab */
+	.recipe-descriptions, .recipe-descriptions2 {
+		font-size: 1.6em;
+	}
+	
+	/* Styles for table, rows and columns */
+	table, th, td {
+	border: 1px solid;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5em;
+	font-size: 1.2em;
+	}
+	/*Styles for main paragraph- Send recipe tab */
+	main p {
+	font-size: 1.9em;
+	}
+
+	/* Styles for input, label, and text area of the form */
+	input, label, textarea {
+	font-size:2em;
+	display: block;
+	}
+
+	/* Styles for paragraphs in Contact Me tab */
+	.aboutme, .endofparagraph {
+	font-size: 1.5em;
+	}
+
+	/* Styles for caption of the table */
+	caption {
+	font-size: 1.3em;
+	}
+
+} /*End of styles for tablet viewport */
+
+/* Media query viewport styles for desktop ranging between 830-1040 px */
+@media only screen and (min-width: 830px) and (max-width: 1040px) {
+	
+	/* Styles for hr */
+	hr {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	/*Styles for home page cooking intro paragraph 1 */
+	.cookingintro {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 1.4em;
+	}
+	/*Styles for home page cooking intro paragraph 2 */
+	.continuedintro {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 1.4em;
+	}
+	
+	/*Styles for footer's paragraph */
+	footer p {
+		font-size: 1.3em;
+	}
+	
+	/*Styles for nav ul li */
+	nav ul li  {
+	font-size: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline;
+}
+
+	/* Styles for home page image1 */
+	.homeimage {
+	max-width: 50%;
+	height: auto;
+	padding-right: 1em;
+	}
+
+	/* Styles for home page image2 */
+	.homeimage1 {
+	max-width: 50%;
+	height: auto;
+	float:left;
+	padding-right: 1em;
+	}
+
+	/* Styles for paragraph with recipe descriptions- Recipes tab */
+	.recipe-descriptions, .recipe-descriptions2 {
+		font-size: 2em;
+	}
+	
+	/* Styles for recipe paragraph- Recipes tab */
+	.recipe-paragraph {
+		font-size: 3em;
+		font-weight: bold;
+	}
+	
+	/* Styles for table, rows and columns */
+	table, th, td {
+	border: 1px solid;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5em;
+	font-size: 1.2em;
+	}
+	/*Styles for main paragraph- Send recipe tab */
+	main p {
+	font-size: 2.2em;
+	}
+
+	/*Styles for input, label, and textarea of the form */
+	input, label, textarea {
+	font-size:1.5em;
+	display: block;
+	padding-bottom: 0.4em;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	/*Style for caption of table */
+	caption {
+	font-size: 2em;
+	}
+
+} /*End of media query styles for desktop viewport */
+
+
+/*Media query for larger desktops starting at 1041px */
+@media only screen and (min-width: 1041px) {
+	
+	/*Styles for home page images, adjusting width and height */
+	.homeimage, .homeimage1 {
+		max-width: 100%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	/*Styles for home page intro */
+	.cookingintro, .continuedintro {
+		font-size: 2em;
+	}
+	
+} /*end of media query styles for larger deskto */
+	
